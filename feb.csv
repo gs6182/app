@@ -1,0 +1,41 @@
+Month,Year,Date,Category,Amount,From,To,Remaining
+February,2022,01/02/2022,Transportation,10,Credit Card,Gas Station,490
+February,2022,01/02/2022,Groceries,20,Debit Card,Supermarket,470
+February,2022,01/02/2022,Dining Out,15,Cash,Restaurant,455
+February,2022,01/02/2022,Entertainment,10,Credit Card,Streaming Service,445
+February,2022,01/02/2022,Shopping,10,Debit Card,Online Retailer,435
+February,2022,02/02/2022,Transportation,5,Credit Card,Public Transportation,430
+February,2022,02/02/2022,Groceries,15,Debit Card,Supermarket,415
+February,2022,02/02/2022,Dining Out,10,Cash,Fast Food Restaurant,405
+February,2022,02/02/2022,Entertainment,5,Credit Card,Streaming Service,400
+February,2022,02/02/2022,Shopping,10,Debit Card,Online Retailer,390
+February,2022,03/02/2022,Transportation,10,Credit Card,Gas Station,380
+February,2022,03/02/2022,Groceries,10,Debit Card,Supermarket,370
+February,2022,03/02/2022,Dining Out,10,Cash,Restaurant,360
+February,2022,03/02/2022,Entertainment,10,Credit Card,Streaming Service,350
+February,2022,03/02/2022,Shopping,15,Debit Card,Online Retailer,335
+February,2022,04/02/2022,Transportation,5,Credit Card,Public Transportation,330
+February,2022,04/02/2022,Groceries,15,Debit Card,Supermarket,315
+February,2022,04/02/2022,Dining Out,20,Cash,Fast Food Restaurant,295
+February,2022,04/02/2022,Entertainment,5,Credit Card,Streaming Service,290
+February,2022,04/02/2022,Shopping,10,Debit Card,Online Retailer,280
+February,2022,05/02/2022,Transportation,5,Credit Card,Gas Station,275
+February,2022,05/02/2022,Groceries,20,Debit Card,Supermarket,255
+February,2022,05/02/2022,Dining Out,15,Cash,Restaurant,240
+February,2022,05/02/2022,Entertainment,10,Credit Card,Streaming Service,230
+February,2022,05/02/2022,Shopping,10,Debit Card,Online Retailer,220
+February,2022,06/02/2022,Transportation,10,Credit Card,Public Transportation,210
+February,2022,06/02/2022,Groceries,15,Debit Card,Supermarket,195
+February,2022,06/02/2022,Dining Out,10,Cash,Fast Food Restaurant,185
+February,2022,06/02/2022,Entertainment,5,Credit Card,Streaming Service,180
+February,2022,06/02/2022,Shopping,10,Debit Card,Online Retailer,170
+February,2022,07/02/2022,Transportation,5,Credit Card,Gas Station,165
+February,2022,07/02/2022,Groceries,10,Debit Card,Supermarket,155
+February,2022,07/02/2022,Dining Out,10,Cash,Restaurant,145
+February,2022,07/02/2022,Entertainment,10,Credit Card,Streaming Service,135
+February,2022,07/02/2022,Shopping,15,Debit Card,Online Retailer,120
+February,2022,08/02/2022,Transportation,10,Credit Card,Public Transportation,110
+February,2022,08/02/2022,Groceries,15,Debit Card,Supermarket,95
+February,2022,08/02/2022,Dining Out,20,Cash,Fast Food Restaurant,75
+February,2022,08/02/2022,Entertainment,5,Credit Card,Streaming Service,70
+February,2022,08/02/2022,Shopping,10,Debit Card,Online Retailer,60

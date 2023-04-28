@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Input Form</title>
+    <style>
+      body {
+        /* background-image: url("./pexels-tima-miroshnichenko-6693655.jpg"); */
+        background-image: url("{{url_for('static', filename='img/pexels-tima-miroshnichenko-6693655.jpg')}}");
+        background-size: cover;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        color: #fff;
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      input[type="email"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        font-size: 16px;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Email Input Form</h1>
+      <form action="" method="post">
+        <input
+          type="email"
+          name="email"
+          id="myInput"
+          placeholder="Enter your email address"
+          required
+        />
+        <input type="submit" value="Submit" id="myButton" />
+      </form>
+    </div>
+
+    <script>
+      var myButton = document.getElementById("myButton");
+
+      myButton.addEventListener("click", function () {
+        event.preventDefault();
+        // Your code to get the input value and send the JSON request goes here
+        var myValue = document.getElementById("myInput").value;
+        var myData = {
+          receiver_email: myValue,
+        };
+
+        fetch("/send-email", {
+          method: "POST",
+          body: JSON.stringify(myData),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            window.location.replace("/upload");
+            console.log(data);
+          })
+          .catch((error) => console.error(error));
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+Month,Year,Date,Category,Amount,From,To,Remaining
+March,2022,01/03/2022,Transportation,10,Credit Card,Public Transportation,290
+March,2022,01/03/2022,Groceries,20,Debit Card,Supermarket,270
+March,2022,01/03/2022,Dining Out,10,Cash,Fast Food Restaurant,260
+March,2022,01/03/2022,Entertainment,5,Credit Card,Streaming Service,255
+March,2022,01/03/2022,Shopping,5,Debit Card,Online Retailer,250
+March,2022,02/03/2022,Transportation,10,Credit Card,Gas Station,240
+March,2022,02/03/2022,Groceries,15,Debit Card,Supermarket,225
+March,2022,02/03/2022,Dining Out,15,Cash,Restaurant,210
+March,2022,02/03/2022,Entertainment,10,Credit Card,Streaming Service,200
+March,2022,02/03/2022,Shopping,10,Debit Card,Online Retailer,190
+March,2022,03/03/2022,Transportation,10,Credit Card,Public Transportation,180
+March,2022,03/03/2022,Groceries,25,Debit Card,Supermarket,155
+March,2022,03/03/2022,Dining Out,10,Cash,Fast Food Restaurant,145
+March,2022,03/03/2022,Entertainment,5,Credit Card,Streaming Service,140
+March,2022,03/03/2022,Shopping,15,Debit Card,Online Retailer,125
+March,2022,04/03/2022,Transportation,10,Credit Card,Gas Station,115
+March,2022,04/03/2022,Groceries,20,Debit Card,Supermarket,95
+March,2022,04/03/2022,Dining Out,20,Cash,Restaurant,75
+March,2022,04/03/2022,Entertainment,10,Credit Card,Streaming Service,65
+March,2022,04/03/2022,Shopping,5,Debit Card,Online Retailer,60
+March,2022,05/03/2022,Transportation,10,Credit Card,Public Transportation,50
+March,2022,05/03/2022,Groceries,15,Debit Card,Supermarket,35
+March,2022,05/03/2022,Dining Out,10,Cash,Fast Food Restaurant,25
+March,2022,05/03/2022,Entertainment,5,Credit Card,Streaming Service,20
+March,2022,05/03/2022,Shopping,10,Debit Card,Online Retailer,10
+March,2022,06/03/2022,Transportation,5,Credit Card,Gas Station,5
+March,2022,06/03/2022,Groceries,10,Debit Card,Supermarket,-5
+March,2022,06/03/2022,Dining Out,15,Cash,Restaurant,-20
+March,2022,06/03/2022,Entertainment,5,Credit Card,

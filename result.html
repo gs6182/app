@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Expense Analysis Results</title>
+  </head>
+  <body>
+    <h1>Expense Analysis Results</h1>
+    
+    <p>Total expenditure for all months: {{ total_expenditure_for_all_months }}</p>
+    <p>Average expenditure per category: {{ average_expenditure_per_category }}</p>
+    
+    <h2>Total expenditure by category:</h2>
+    <ul>
+      {% for category, total in total_by_category.items() %}
+      <li>{{ category }}: {{ total }}</li>
+      {% endfor %}
+    </ul>
+    
+    <h2>Total expenditure by category per month:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          {% for month in total_expenditure_by_month.keys() %}
+          <th>{{ month }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for category, totals in total_expenditure_by_category_per_month.items() %}
+        <tr>
+          <td>{{ category }}</td>
+          {% for month, total in totals.items() %}
+          <td>{{ total }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Upload Form</title>
+    <style>
+      body {
+        background-image: url("{{url_for('static', filename='img/pexels-tima-miroshnichenko-6694543.jpg')}}");
+        background-size: cover;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+      }
+
+      h1 {
+        color: #ffffff;
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      input[type="file"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0px 5px rgba(230, 14, 14, 0.2);
+        font-size: 16px;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>File Upload Form</h1>
+      <form id="myForm" action="" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required />
+        <button type="button" onclick="uploadFile()" id="upload_button">
+          Upload File
+        </button>
+      </form>
+      <button id="fetch-button" type="button" onclick="fetchData()">Fetch Data</button>
+    </div>
+
+    <script>
+      function uploadFile() {
+        // Get the form and file input elements
+        const form = document.getElementById("myForm");
+        const fileInput = document.querySelector('input[type="file"]');
+
+        // Create a new FormData object and append the file to it
+        const formData = new FormData();
+        formData.append("file", fileInput.files[0]);
+
+        // Create a new XHR object
+        const xhr = new XMLHttpRequest();
+
+        // Set the URL and method for the request
+        xhr.open("POST", "/upload");
+
+        // Set the onload function for the XHR object
+        xhr.onload = function () {
+          console.log(xhr.responseText);
+        };
+
+        // Send the form data to the server
+        xhr.send(formData);
+      }
+
+      function fetchData() {
+        let fetchButton = document.getElementById("fetch-button");
+        fetchButton.addEventListener("click", () => {
+          fetch("/analyze_expenses")
+            .then((response) => response.json())
+            .then((data) => {
+              window.location.replace("/pie");
+              console.log(data);
+              // Your code to display the data on the page goes here
+              // ...
+            })
+            .catch((error) => console.error(error));
+        });
+      }
+    </script>
+  </body>
+</html>

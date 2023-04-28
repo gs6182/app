@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form id="myForm">
+      <input type="file" name="file" />
+      <button type="button" onclick="uploadFile()">Upload</button>
+    </form>
+
+    <button id="fetch-button">Fetch data</button>
+
+    <script>
+      function uploadFile() {
+        // Get the form and file input elements
+        const form = document.getElementById("myForm");
+        const fileInput = document.querySelector('input[type="file"]');
+
+        // Create a new FormData object and append the file to it
+        const formData = new FormData();
+        formData.append("file", fileInput.files[0]);
+
+        // Create a new XHR object
+        const xhr = new XMLHttpRequest();
+
+        // Set the URL and method for the request
+        xhr.open("POST", "/upload");
+
+        // Set the onload function for the XHR object
+        xhr.onload = function () {
+          console.log(xhr.responseText);
+        };
+
+        // Send the form data to the server
+        xhr.send(formData);
+      }
+
+      let fetchButton = document.getElementById("fetch-button");
+      fetchButton.addEventListener("click", () => {
+        fetch("/analyze_expenses")
+          .then((response) => response.json())
+          .then((data) => {
+            console.log(data);
+            // Your code to display the data on the page goes here
+            // ...
+          })
+          .catch((error) => console.error(error));
+      });
+    </script>
+  </body>
+</html>

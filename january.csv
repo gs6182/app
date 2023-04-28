@@ -1,0 +1,51 @@
+Month,Year,Date,Category,Amount,From,To,Remaining
+January,2022,01/01/2022,Transportation,10,Credit Card,Public Transportation,990
+January,2022,01/01/2022,Groceries,20,Debit Card,Supermarket,970
+January,2022,01/01/2022,Dining Out,5,Cash,Fast Food Restaurant,965
+January,2022,01/01/2022,Entertainment,10,Credit Card,Streaming Service,955
+January,2022,01/01/2022,Shopping,5,Debit Card,Online Retailer,950
+January,2022,02/01/2022,Transportation,10,Credit Card,Gas Station,940
+January,2022,02/01/2022,Groceries,15,Debit Card,Supermarket,925
+January,2022,02/01/2022,Dining Out,20,Cash,Restaurant,905
+January,2022,02/01/2022,Entertainment,5,Credit Card,Streaming Service,900
+January,2022,02/01/2022,Shopping,15,Debit Card,Online Retailer,885
+January,2022,03/01/2022,Transportation,5,Credit Card,Gas Station,880
+January,2022,03/01/2022,Groceries,20,Debit Card,Supermarket,860
+January,2022,03/01/2022,Dining Out,10,Cash,Fast Food Restaurant,850
+January,2022,03/01/2022,Entertainment,10,Credit Card,Streaming Service,840
+January,2022,03/01/2022,Shopping,10,Debit Card,Online Retailer,830
+January,2022,04/01/2022,Transportation,10,Credit Card,Public Transportation,820
+January,2022,04/01/2022,Groceries,10,Debit Card,Supermarket,810
+January,2022,04/01/2022,Dining Out,5,Cash,Fast Food Restaurant,805
+January,2022,04/01/2022,Entertainment,5,Credit Card,Streaming Service,800
+January,2022,04/01/2022,Shopping,5,Debit Card,Online Retailer,795
+January,2022,05/01/2022,Transportation,10,Credit Card,Gas Station,785
+January,2022,05/01/2022,Groceries,10,Debit Card,Supermarket,775
+January,2022,05/01/2022,Dining Out,15,Cash,Restaurant,760
+January,2022,05/01/2022,Entertainment,10,Credit Card,Streaming Service,750
+January,2022,05/01/2022,Shopping,15,Debit Card,Online Retailer,735
+January,2022,06/01/2022,Transportation,5,Credit Card,Gas Station,730
+January,2022,06/01/2022,Groceries,20,Debit Card,Supermarket,710
+January,2022,06/01/2022,Dining Out,5,Cash,Fast Food Restaurant,705
+January,2022,06/01/2022,Entertainment,10,Credit Card,Streaming Service,695
+January,2022,07/01/2022,Transportation,5,Credit Card,Public Transportation,690
+January,2022,07/01/2022,Groceries,10,Debit Card,Supermarket,680
+January,2022,07/01/2022,Dining Out,10,Cash,Restaurant,670
+January,2022,07/01/2022,Entertainment,5,Credit Card,Streaming Service,665
+January,2022,07/01/2022,Shopping,10,Debit Card,Online Retailer,655
+January,2022,08/01/2022,Transportation,10,Credit Card,Gas Station,645
+January,2022,08/01/2022,Groceries,15,Debit Card,Supermarket,630
+January,2022,08/01/2022,Dining Out,20,Cash,Fast Food Restaurant,610
+January,2022,08/01/2022,Entertainment,5,Credit Card,Streaming Service,605
+January,2022,08/01/2022,Shopping,15,Debit Card,Online Retailer,590
+January,2022,09/01/2022,Transportation,5,Credit Card,Public Transportation,585
+January,2022,09/01/2022,Groceries,20,Debit Card,Supermarket,565
+January,2022,09/01/2022,Dining Out,10,Cash,Restaurant,555
+January,2022,09/01/2022,Entertainment,10,Credit Card,Streaming Service,545
+January,2022,09/01/2022,Shopping,10,Debit Card,Online Retailer,535
+January,2022,10/01/2022,Transportation,10,Credit Card,Gas Station,525
+January,2022,10/01/2022,Groceries,10,Debit Card,Supermarket,515
+January,2022,10/01/2022,Dining Out,5,Cash,Fast Food Restaurant,510
+January,2022,10/01/2022,Entertainment,5,Credit Card,Streaming Service,505
+January,2022,10/01/2022,Shopping,5,Debit Card,Online Retailer,500
+
